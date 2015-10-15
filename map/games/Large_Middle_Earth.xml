@@ -3,7 +3,7 @@
 <!DOCTYPE game SYSTEM "game.dtd">
 
 <game>
-	<info name="Large Middle Earth - Third Age All Stars" version="1.0"/>
+	<info name="Large Middle Earth - Third Age All Stars" version="1.1.1"/>
 	<loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.8"/>
 	<diceSides value="12"/>
@@ -1580,6 +1580,21 @@
                 <connection t1="West Ered Nimrais" t2="Ered Nimrais"/>
                 <connection t1="sz Bruinen" t2="The Angle"/>
                 <connection t1="sz Bruinen" t2="sz Mitheithel 1"/>
+					
+					<!--THEESE SHOULD BE CANALS-->
+					
+					<connection t1="sz Lhun" t2="sz Gulf of Lhun"/>
+					<connection t1="sz Baranduin 3" t2="sz Baranduin 4"/>
+					<connection t1="sz Baranduin 3" t2="sz Baranduin 2"/>
+					<connection t1="sz Mitheithel 2" t2="sz Mitheithel 1"/>
+					<connection t1="sz Greyflood 3" t2="sz Greyflood 2"/>
+					<connection t1="sz Sea of Rhun" t2="sz Celduin 1"/>
+					<connection t1="sz Upper Anduin 6" t2="sz Upper Anduin 5"/>
+					<connection t1="sz Upper Anduin 5" t2="sz Upper Anduin 4"/>
+					<connection t1="sz Lower Anduin 4" t2="sz Lower Anduin 3"/>
+					<connection t1="sz Lower Anduin 3" t2="sz Lower Anduin 2"/>
+					<connection t1="sz Lower Harnen" t2="sz Upper Harnen"/>
+					
         </map>
 		
 		
@@ -2285,7 +2300,7 @@
 						
 						<option name="targetsAA" value="axe_cavalry:lancer:knight:chariot:olog_hai:bear:oliphant:warg"/>
 						<!--<option name="willNotFireIfPresent" value="wall:tower:fortress"/>-->
-						<option name="typeAA" value="spear"/>
+						<option name="typeAA" value="formation"/>
 						<option name="attackAA" value="3"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
@@ -2426,7 +2441,7 @@
 						
 						<option name="targetsAA" value="axe_cavalry:lancer:knight:chariot:olog_hai:bear:oliphant:warg"/>
 						<!--<option name="willNotFireIfPresent" value="wall:tower:fortress"/>-->
-						<option name="typeAA" value="spear"/>
+						<option name="typeAA" value="formation"/>
 						<option name="attackAA" value="2"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
@@ -2459,7 +2474,7 @@
 						
 						<option name="targetsAA" value="axe_cavalry:lancer:knight:chariot:olog_hai:bear:oliphant:warg"/>
 						<!--<option name="willNotFireIfPresent" value="wall:tower:fortress"/>-->
-						<option name="typeAA" value="spear"/>
+						<option name="typeAA" value="formation"/>
 						<option name="attackAA" value="6"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
@@ -2489,7 +2504,7 @@
 						
 						<option name="targetsAA" value="axe_cavalry:lancer:knight:chariot:olog_hai:bear:oliphant:warg"/>
 						<!--<option name="willNotFireIfPresent" value="wall:tower:fortress"/>-->
-						<option name="typeAA" value="spear"/>
+						<option name="typeAA" value="formation"/>
 						<option name="attackAA" value="3"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
@@ -2556,7 +2571,7 @@
 						
 						<option name="targetsAA" value="axe_cavalry:lancer:knight:chariot:olog_hai:bear:oliphant:warg"/>
 						<!--<option name="willNotFireIfPresent" value="wall:tower:fortress"/>-->
-						<option name="typeAA" value="spear"/>
+						<option name="typeAA" value="formation"/>
 						<option name="attackAA" value="6"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
@@ -2579,7 +2594,7 @@
 						
 						<option name="targetsAA" value="axe_cavalry:lancer:knight:chariot:olog_hai:bear:oliphant:warg"/>
 						<!--<option name="willNotFireIfPresent" value="wall:tower:fortress"/>-->
-						<option name="typeAA" value="spear"/>
+						<option name="typeAA" value="formation"/>
 						<option name="attackAA" value="2"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
@@ -2672,7 +2687,7 @@
 						<option name="defenseRolls" value="2"/>
 						
 						<!--<option name="targetsAA" value="swordsman:spearman:peasant:hobbit:axeman:goblin_stabber:uruk_swordsman:uruk_pikeman:orc_marauder:light_cavalry:axe_cavalry:lancer:knight:chariot:dwarven_axeman:dwarven_phalangite:tower_guard:morannon_guard"/>
-						<option name="typeAA" value="net"/>
+						<option name="typeAA" value="web"/>
 						<option name="attackAA" value="3"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
@@ -2843,7 +2858,7 @@
 						
 						<option name="targetsAA" value="axe_cavalry:lancer:knight:chariot:olog_hai:bear:oliphant:warg"/>
 						<!--<option name="willNotFireIfPresent" value="wall:tower:fortress"/>-->
-						<option name="typeAA" value="spear"/>
+						<option name="typeAA" value="formation"/>
 						<option name="attackAA" value="2"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
@@ -3007,7 +3022,7 @@
 						
 						<option name="targetsAA" value="axe_cavalry:lancer:knight:chariot:olog_hai:bear:oliphant:warg"/>
 						<!--<option name="willNotFireIfPresent" value="wall:tower:fortress"/>-->
-						<option name="typeAA" value="spear"/>
+						<option name="typeAA" value="formation"/>
 						<option name="attackAA" value="4"/>
 						<option name="offensiveAttackAA" value="0"/>
 						<option name="isAAforCombatOnly" value="true"/>
@@ -3394,7 +3409,7 @@
 						<option name="territoryEffect" value="river"/>
                    </attatchment>
                     <attatchment name="territoryAttatchment" attatchTo="Isengard" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
-                        <option name="production" value="12"/>
+                        <option name="production" value="20"/>
 						<option name="unitProduction" value="8"/>
 						<option name="territoryEffect" value="settlement"/>
                         <option name="capital" value="Saruman"/>
@@ -4760,7 +4775,7 @@
                    </attatchment>
 				   
 				   
-				    <attatchment name="canalAttatchmentHarnen" attatchTo="sz Lower Harnen" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+				    <!--<attatchment name="canalAttatchmentHarnen" attatchTo="sz Lower Harnen" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
 						<option name="canalName" value="Crossings of Harnen Canal"/>
 						<option name="landTerritories" value="Crossings of Harnen"/>
 					</attatchment>
@@ -4857,7 +4872,7 @@
 					<attatchment name="canalAttatchmentMithlond" attatchTo="sz Gulf of Lhun" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
 						<option name="canalName" value="Mithlond Canal"/>
 						<option name="landTerritories" value="Mithlond"/>
-					</attatchment>
+					</attatchment>-->
 				   
 				   
 				   
@@ -5810,15 +5825,15 @@
 					</attatchment>
 					
 					
-					<!--NET-->
-					<attatchment name="supportAttachment_spiderNet" attatchTo="spider" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+					<!--WEB-->
+					<attatchment name="supportAttachment_spiderWeb" attatchTo="spider" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
 						<option name="unitType" value="swordsman:spearman:axeman:peasant:hobbit:tower_guard:goblin_stabber:orc_marauder:uruk_pikeman:uruk_swordsman:morannon_guard:light_cavalry:axe_cavalry:lancer:knight:chariot:dwarven_axeman:dwarven_phalangite:dwarven_halberdier:elven_warden"/>
 						<option name="faction" value="enemy"/>
 						<option name="side" value="defence"/>
 						<option name="dice" value="strength"/>
 						<option name="bonus" value="-1"/>
 						<option name="number" value="8"/>
-						<option name="bonusType" value="net"/>
+						<option name="bonusType" value="web"/>
 						<option name="impArtTech" value="false"/>
 						<option name="players" value="Dwarves:Freefolk:DolGuldur:HighElves:Saruman:Gondor:Mordor:Lorien:Harad:Northmen:Rohan:Orcs:Arnor:Angmar:Dale:Rhun:WoodlandRealm"/>
 					</attatchment>
@@ -6782,43 +6797,6 @@
 						<territoryOwner territory="Elf Path" owner="WoodlandRealm"/>
                 </ownerInitialize>
 				<unitInitialize>
-					<unitPlacement unitType="axeman" territory="Druadan Forest" quantity="4"/>
-					<unitPlacement unitType="axeman" territory="Druwaith Laur" quantity="3"/>
-					<unitPlacement unitType="factory" territory="Tharbad" quantity="1"/>
-					<unitPlacement unitType="factory" territory="Lond Daer" quantity="1"/>
-					<unitPlacement unitType="factory" territory="Ost in Edhil" quantity="1"/>
-					<unitPlacement unitType="archer" territory="Tharbad" quantity="2"/>
-					<unitPlacement unitType="peasant" territory="Tharbad" quantity="1"/>
-					<unitPlacement unitType="wall" territory="Tharbad" quantity="2"/>
-					<unitPlacement unitType="wall" territory="Lond Daer" quantity="1"/>
-					<unitPlacement unitType="wall" territory="Ost in Edhil" quantity="1"/>
-					<unitPlacement unitType="axeman" territory="Eryn Vorn" quantity="5"/>
-					<unitPlacement unitType="peasant" territory="South Enedwaith" quantity="2"/>
-					<unitPlacement unitType="peasant" territory="North Enedwaith" quantity="1"/>
-					<unitPlacement unitType="peasant" territory="Lefnui Vale" quantity="1"/>
-					<unitPlacement unitType="peasant" territory="East Anfalas" quantity="1"/>
-					<unitPlacement unitType="peasant" territory="West Anfalas" quantity="2"/>
-					<unitPlacement unitType="light_cavalry" territory="South Minhiriath" quantity="2"/>
-					<unitPlacement unitType="axeman" territory="South Minhiriath" quantity="1"/>
-					<unitPlacement unitType="axe_cavalry" territory="North Minhiriath" quantity="1"/>
-					<unitPlacement unitType="peasant" territory="North Minhiriath" quantity="2"/>
-					<unitPlacement unitType="peasant" territory="West Cardolan" quantity="4"/>
-					<unitPlacement unitType="peasant" territory="South Cardolan" quantity="3"/>
-					<unitPlacement unitType="peasant" territory="West Lone Lands" quantity="1"/>
-					<unitPlacement unitType="peasant" territory="East Lone Lands" quantity="2"/>
-					<unitPlacement unitType="axeman" territory="Last Bridge" quantity="2"/>
-					<unitPlacement unitType="troll" territory="Trollshaws" quantity="3"/>
-					<unitPlacement unitType="archer" territory="West Forochel Coast" quantity="2"/>
-					<unitPlacement unitType="axeman" territory="West Forochel Coast" quantity="1"/>
-					<unitPlacement unitType="archer" territory="East Forochel Coast" quantity="1"/>
-					<unitPlacement unitType="axeman" territory="East Forochel Coast" quantity="1"/>
-					<unitPlacement unitType="peasant" territory="East Rhovanion" quantity="3"/>
-					<unitPlacement unitType="peasant" territory="North Brown Lands" quantity="2"/>
-					<unitPlacement unitType="peasant" territory="West Brown Lands" quantity="4"/>
-					<unitPlacement unitType="peasant" territory="East Brown Lands" quantity="2"/>
-					<unitPlacement unitType="huorn" territory="Old Forest" quantity="4"/>
-					<unitPlacement unitType="axeman" territory="Barrow Downs" quantity="5"/>
-					
 					<unitPlacement unitType="dwarven_axethrower" territory="West Ered Mithrin" quantity="3" owner="Dwarves"/>
 					<unitPlacement unitType="dwarven_axeman" territory="West Ered Mithrin" quantity="1" owner="Dwarves"/>
 					<unitPlacement unitType="catapult" territory="Thorins Halls" quantity="1" owner="Dwarves"/>
@@ -6833,11 +6811,11 @@
 					<unitPlacement unitType="dwarven_phalangite" territory="East Iron Hills" quantity="1" owner="Dwarves"/>
 					<unitPlacement unitType="dwarven_axethrower" territory="North Ered Mithrin" quantity="1" owner="Dwarves"/>
 					<unitPlacement unitType="catapult" territory="Dains Halls" quantity="2" owner="Dwarves"/>
+					<unitPlacement unitType="dwarven_halberdier" territory="Dains Halls" quantity="1" owner="Dwarves"/>
 					<unitPlacement unitType="dwarven_axethrower" territory="Dains Halls" quantity="2" owner="Dwarves"/>
 					<unitPlacement unitType="factory" territory="Dains Halls" quantity="1" owner="Dwarves"/>
 					<unitPlacement unitType="wall" territory="Dains Halls" quantity="3" owner="Dwarves"/>
 					<unitPlacement unitType="dwarven_axeman" territory="Dains Halls" quantity="3" owner="Dwarves"/>
-					<unitPlacement unitType="dwarven_halberdier" territory="Dains Halls" quantity="1" owner="Dwarves"/>
 					<unitPlacement unitType="catapult" territory="West Iron Hills" quantity="1" owner="Dwarves"/>
 					<unitPlacement unitType="dwarven_phalangite" territory="West Iron Hills" quantity="2" owner="Dwarves"/>
 					<unitPlacement unitType="trebuchet" territory="West Iron Hills" quantity="1" owner="Dwarves"/>
@@ -6868,14 +6846,14 @@
 					<unitPlacement unitType="snaga_skirmisher" territory="Southeast Mirkwood" quantity="1" owner="DolGuldur"/>
 					<unitPlacement unitType="spider" territory="Southeast Mirkwood" quantity="1" owner="DolGuldur"/>
 					<unitPlacement unitType="orc_marauder" territory="Southeast Mirkwood" quantity="1" owner="DolGuldur"/>
-					<unitPlacement unitType="uruk_swordsman" territory="Dol Guldur" quantity="2" owner="DolGuldur"/>
 					<unitPlacement unitType="tower" territory="Dol Guldur" quantity="1" owner="DolGuldur"/>
+					<unitPlacement unitType="uruk_swordsman" territory="Dol Guldur" quantity="2" owner="DolGuldur"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Dol Guldur" quantity="3" owner="DolGuldur"/>
 					<unitPlacement unitType="nazgul" territory="Dol Guldur" quantity="1" owner="DolGuldur"/>
-					<unitPlacement unitType="bat" territory="Dol Guldur" quantity="1" owner="DolGuldur"/>
 					<unitPlacement unitType="factory" territory="Dol Guldur" quantity="1" owner="DolGuldur"/>
-					<unitPlacement unitType="orc_marauder" territory="Dol Guldur" quantity="5" owner="DolGuldur"/>
+					<unitPlacement unitType="bat" territory="Dol Guldur" quantity="1" owner="DolGuldur"/>
 					<unitPlacement unitType="wall" territory="Dol Guldur" quantity="4" owner="DolGuldur"/>
+					<unitPlacement unitType="orc_marauder" territory="Dol Guldur" quantity="5" owner="DolGuldur"/>
 					<unitPlacement unitType="spider" territory="Narrows of Mirkwood" quantity="1" owner="DolGuldur"/>
 					<unitPlacement unitType="warg" territory="South Anduin Bank" quantity="1" owner="DolGuldur"/>
 					<unitPlacement unitType="orc_marauder" territory="South Anduin Bank" quantity="1" owner="DolGuldur"/>
@@ -6885,8 +6863,8 @@
 					<unitPlacement unitType="elven_archer" territory="Mithlond" quantity="3" owner="HighElves"/>
 					<unitPlacement unitType="elven_hunter" territory="Rhudaur" quantity="1" owner="HighElves"/>
 					<unitPlacement unitType="elven_archer" territory="Rhudaur" quantity="1" owner="HighElves"/>
-					<unitPlacement unitType="wizard" territory="Rivendell" quantity="1" owner="HighElves"/>
 					<unitPlacement unitType="factory" territory="Rivendell" quantity="1" owner="HighElves"/>
+					<unitPlacement unitType="wizard" territory="Rivendell" quantity="1" owner="HighElves"/>
 					<unitPlacement unitType="elven_archer" territory="Rivendell" quantity="8" owner="HighElves"/>
 					<unitPlacement unitType="elven_hunter" territory="Lhun East Bank" quantity="1" owner="HighElves"/>
 					<unitPlacement unitType="factory" territory="Forlond" quantity="1" owner="HighElves"/>
@@ -6899,28 +6877,28 @@
 					<unitPlacement unitType="elven_hunter" territory="South Harlindon" quantity="1" owner="HighElves"/>
 					<unitPlacement unitType="elven_archer" territory="South Harlindon" quantity="1" owner="HighElves"/>
 					<unitPlacement unitType="elven_hunter" territory="The Angle" quantity="2" owner="HighElves"/>
-					<unitPlacement unitType="orc_marauder" territory="West Methedras" quantity="1" owner="Saruman"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="West Methedras" quantity="2" owner="Saruman"/>
+					<unitPlacement unitType="orc_marauder" territory="West Methedras" quantity="1" owner="Saruman"/>
+					<unitPlacement unitType="axeman" territory="South Dunland" quantity="1" owner="Saruman"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="East Methedras" quantity="3" owner="Saruman"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Isen" quantity="2" owner="Saruman"/>
 					<unitPlacement unitType="axeman" territory="Isen" quantity="3" owner="Saruman"/>
 					<unitPlacement unitType="orc_marauder" territory="Isen" quantity="2" owner="Saruman"/>
+					<unitPlacement unitType="snaga_skirmisher" territory="North South Road" quantity="1" owner="Saruman"/>
+					<unitPlacement unitType="orc_marauder" territory="North South Road" quantity="4" owner="Saruman"/>
 					<unitPlacement unitType="axeman" territory="North Dunland" quantity="2" owner="Saruman"/>
 					<unitPlacement unitType="axeman" territory="Dunland Hills" quantity="3" owner="Saruman"/>
 					<unitPlacement unitType="orc_marauder" territory="Fords of Isen" quantity="2" owner="Saruman"/>
 					<unitPlacement unitType="uruk_pikeman" territory="Isengard" quantity="4" owner="Saruman"/>
-					<unitPlacement unitType="uruk_swordsman" territory="Isengard" quantity="4" owner="Saruman"/>
 					<unitPlacement unitType="tower" territory="Isengard" quantity="1" owner="Saruman"/>
-					<unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
+					<unitPlacement unitType="uruk_swordsman" territory="Isengard" quantity="4" owner="Saruman"/>
 					<unitPlacement unitType="factory" territory="Isengard" quantity="1" owner="Saruman"/>
+					<unitPlacement unitType="wizard" territory="Isengard" quantity="1" owner="Saruman"/>
 					<unitPlacement unitType="wall" territory="Isengard" quantity="4" owner="Saruman"/>
 					<unitPlacement unitType="axeman" territory="West Dunland" quantity="1" owner="Saruman"/>
-					<unitPlacement unitType="axeman" territory="South Dunland" quantity="1" owner="Saruman"/>
-					<unitPlacement unitType="orc_marauder" territory="North South Road" quantity="4" owner="Saruman"/>
-					<unitPlacement unitType="snaga_skirmisher" territory="North South Road" quantity="1" owner="Saruman"/>
 					<unitPlacement unitType="spearman" territory="Crossings of Poros" quantity="2" owner="Gondor"/>
-					<unitPlacement unitType="knight" territory="Crossings of Poros" quantity="1" owner="Gondor"/>
 					<unitPlacement unitType="swordsman" territory="Crossings of Poros" quantity="1" owner="Gondor"/>
+					<unitPlacement unitType="knight" territory="Crossings of Poros" quantity="1" owner="Gondor"/>
 					<unitPlacement unitType="lancer" territory="Gilrain" quantity="1" owner="Gondor"/>
 					<unitPlacement unitType="factory" territory="Henneth Annun" quantity="1" owner="Gondor"/>
 					<unitPlacement unitType="ranger" territory="Henneth Annun" quantity="3" owner="Gondor"/>
@@ -6944,8 +6922,8 @@
 					<unitPlacement unitType="swordsman" territory="Osgiliath" quantity="2" owner="Gondor"/>
 					<unitPlacement unitType="tower" territory="Dol Amroth" quantity="1" owner="Gondor"/>
 					<unitPlacement unitType="spearman" territory="Dol Amroth" quantity="2" owner="Gondor"/>
-					<unitPlacement unitType="lancer" territory="Dol Amroth" quantity="2" owner="Gondor"/>
 					<unitPlacement unitType="factory" territory="Dol Amroth" quantity="1" owner="Gondor"/>
+					<unitPlacement unitType="lancer" territory="Dol Amroth" quantity="2" owner="Gondor"/>
 					<unitPlacement unitType="wall" territory="Dol Amroth" quantity="2" owner="Gondor"/>
 					<unitPlacement unitType="knight" territory="Dol Amroth" quantity="1" owner="Gondor"/>
 					<unitPlacement unitType="ranger" territory="Warning Beacons of Gondor" quantity="1" owner="Gondor"/>
@@ -6956,10 +6934,10 @@
 					<unitPlacement unitType="factory" territory="Ethring" quantity="1" owner="Gondor"/>
 					<unitPlacement unitType="ranger" territory="Ethring" quantity="1" owner="Gondor"/>
 					<unitPlacement unitType="swordsman" territory="Ethring" quantity="1" owner="Gondor"/>
-					<unitPlacement unitType="tower_guard" territory="Minas Tirith" quantity="5" owner="Gondor"/>
 					<unitPlacement unitType="tower" territory="Minas Tirith" quantity="1" owner="Gondor"/>
-					<unitPlacement unitType="trebuchet" territory="Minas Tirith" quantity="1" owner="Gondor"/>
+					<unitPlacement unitType="tower_guard" territory="Minas Tirith" quantity="5" owner="Gondor"/>
 					<unitPlacement unitType="factory" territory="Minas Tirith" quantity="1" owner="Gondor"/>
+					<unitPlacement unitType="trebuchet" territory="Minas Tirith" quantity="1" owner="Gondor"/>
 					<unitPlacement unitType="wall" territory="Minas Tirith" quantity="4" owner="Gondor"/>
 					<unitPlacement unitType="knight" territory="Minas Tirith" quantity="2" owner="Gondor"/>
 					<unitPlacement unitType="light_cavalry" territory="Lebennin" quantity="1" owner="Gondor"/>
@@ -6979,12 +6957,12 @@
 					<unitPlacement unitType="orc_marauder" territory="East Nurn" quantity="3" owner="Mordor"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Morgai" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="orc_marauder" territory="Morgai" quantity="1" owner="Mordor"/>
-					<unitPlacement unitType="uruk_swordsman" territory="Minas Morgul" quantity="2" owner="Mordor"/>
 					<unitPlacement unitType="tower" territory="Minas Morgul" quantity="1" owner="Mordor"/>
+					<unitPlacement unitType="uruk_swordsman" territory="Minas Morgul" quantity="2" owner="Mordor"/>
 					<unitPlacement unitType="winged_nazgul" territory="Minas Morgul" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="factory" territory="Minas Morgul" quantity="1" owner="Mordor"/>
-					<unitPlacement unitType="orc_marauder" territory="Minas Morgul" quantity="3" owner="Mordor"/>
 					<unitPlacement unitType="wall" territory="Minas Morgul" quantity="4" owner="Mordor"/>
+					<unitPlacement unitType="orc_marauder" territory="Minas Morgul" quantity="3" owner="Mordor"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="South Nurn" quantity="2" owner="Mordor"/>
 					<unitPlacement unitType="orc_marauder" territory="South Nurn" quantity="3" owner="Mordor"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Plateau of Gorgoroth" quantity="3" owner="Mordor"/>
@@ -6994,8 +6972,8 @@
 					<unitPlacement unitType="factory" territory="Carach Angren" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="wall" territory="Carach Angren" quantity="3" owner="Mordor"/>
 					<unitPlacement unitType="morannon_guard" territory="Morannon" quantity="3" owner="Mordor"/>
-					<unitPlacement unitType="olog_hai" territory="Morannon" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="fortress" territory="Morannon" quantity="1" owner="Mordor"/>
+					<unitPlacement unitType="olog_hai" territory="Morannon" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="factory" territory="Morannon" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="wall" territory="Morannon" quantity="4" owner="Mordor"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Carchost" quantity="1" owner="Mordor"/>
@@ -7008,20 +6986,20 @@
 					<unitPlacement unitType="orc_marauder" territory="Narchost" quantity="2" owner="Mordor"/>
 					<unitPlacement unitType="tower" territory="Cirith Ungol" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Cirith Ungol" quantity="3" owner="Mordor"/>
-					<unitPlacement unitType="spider" territory="Cirith Ungol" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="factory" territory="Cirith Ungol" quantity="1" owner="Mordor"/>
+					<unitPlacement unitType="spider" territory="Cirith Ungol" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="olog_hai" territory="Lithlad" quantity="1" owner="Mordor"/>
 					<unitPlacement unitType="orc_marauder" territory="Lithlad" quantity="2" owner="Mordor"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="South Ered Lithui" quantity="2" owner="Mordor"/>
+					<unitPlacement unitType="elven_archer" territory="Fields of Celebrant" quantity="1" owner="Lorien"/>
 					<unitPlacement unitType="factory" territory="Caras Galadhon" quantity="1" owner="Lorien"/>
 					<unitPlacement unitType="elven_archer" territory="Caras Galadhon" quantity="6" owner="Lorien"/>
+					<unitPlacement unitType="elven_hunter" territory="Nimrodel" quantity="1" owner="Lorien"/>
+					<unitPlacement unitType="elven_archer" territory="Nimrodel" quantity="2" owner="Lorien"/>
 					<unitPlacement unitType="factory" territory="Cerin Amroth" quantity="1" owner="Lorien"/>
 					<unitPlacement unitType="elven_hunter" territory="Cerin Amroth" quantity="1" owner="Lorien"/>
 					<unitPlacement unitType="elven_archer" territory="Cerin Amroth" quantity="4" owner="Lorien"/>
 					<unitPlacement unitType="elven_hunter" territory="Naith" quantity="2" owner="Lorien"/>
-					<unitPlacement unitType="elven_archer" territory="Nimrodel" quantity="2" owner="Lorien"/>
-					<unitPlacement unitType="elven_hunter" territory="Nimrodel" quantity="1" owner="Lorien"/>
-					<unitPlacement unitType="elven_archer" territory="Fields of Celebrant" quantity="1" owner="Lorien"/>
 					<unitPlacement unitType="elven_hunter" territory="South Lorien" quantity="1" owner="Lorien"/>
 					<unitPlacement unitType="elven_hunter" territory="North Lorien" quantity="2" owner="Lorien"/>
 					<unitPlacement unitType="elven_archer" territory="North Lorien" quantity="1" owner="Lorien"/>
@@ -7052,13 +7030,13 @@
 					<unitPlacement unitType="factory" territory="Framsburg" quantity="1" owner="Northmen"/>
 					<unitPlacement unitType="light_cavalry" territory="Framsburg" quantity="2" owner="Northmen"/>
 					<unitPlacement unitType="peasant" territory="Framsburg" quantity="2" owner="Northmen"/>
-					<unitPlacement unitType="archer" territory="Upper Forest River" quantity="1" owner="Northmen"/>
-					<unitPlacement unitType="axeman" territory="Upper Forest River" quantity="2" owner="Northmen"/>
-					<unitPlacement unitType="axe_cavalry" territory="Lands of the Eotheod" quantity="2" owner="Northmen"/>
 					<unitPlacement unitType="light_cavalry" territory="Greylin" quantity="1" owner="Northmen"/>
 					<unitPlacement unitType="peasant" territory="Greylin" quantity="2" owner="Northmen"/>
 					<unitPlacement unitType="peasant" territory="Langwell" quantity="2" owner="Northmen"/>
+					<unitPlacement unitType="axe_cavalry" territory="Lands of the Eotheod" quantity="2" owner="Northmen"/>
 					<unitPlacement unitType="axeman" territory="Lands of the Beornings" quantity="3" owner="Northmen"/>
+					<unitPlacement unitType="archer" territory="Upper Forest River" quantity="1" owner="Northmen"/>
+					<unitPlacement unitType="axeman" territory="Upper Forest River" quantity="2" owner="Northmen"/>
 					<unitPlacement unitType="axeman" territory="North Anduin Bank" quantity="1" owner="Northmen"/>
 					<unitPlacement unitType="axeman" territory="Dunharrow" quantity="2" owner="Rohan"/>
 					<unitPlacement unitType="horsearcher" territory="East Emnet" quantity="2" owner="Rohan"/>
@@ -7079,31 +7057,31 @@
 					<unitPlacement unitType="swordsman" territory="Hornburg" quantity="2" owner="Rohan"/>
 					<unitPlacement unitType="archer" territory="Edoras" quantity="2" owner="Rohan"/>
 					<unitPlacement unitType="axeman" territory="Edoras" quantity="2" owner="Rohan"/>
-					<unitPlacement unitType="lancer" territory="Edoras" quantity="2" owner="Rohan"/>
 					<unitPlacement unitType="factory" territory="Edoras" quantity="1" owner="Rohan"/>
+					<unitPlacement unitType="lancer" territory="Edoras" quantity="2" owner="Rohan"/>
 					<unitPlacement unitType="wall" territory="Edoras" quantity="3" owner="Rohan"/>
 					<unitPlacement unitType="knight" territory="Edoras" quantity="1" owner="Rohan"/>
 					<unitPlacement unitType="axe_cavalry" territory="Eastfold" quantity="1" owner="Rohan"/>
 					<unitPlacement unitType="lancer" territory="Eastfold" quantity="1" owner="Rohan"/>
 					<unitPlacement unitType="light_cavalry" territory="West Emnet" quantity="2" owner="Rohan"/>
 					<unitPlacement unitType="axe_cavalry" territory="Westfold" quantity="2" owner="Rohan"/>
-					<unitPlacement unitType="goblin_stabber" territory="Goblin Town" quantity="3" owner="Orcs"/>
 					<unitPlacement unitType="factory" territory="Goblin Town" quantity="1" owner="Orcs"/>
-					<unitPlacement unitType="goblin_archer" territory="Goblin Town" quantity="5" owner="Orcs"/>
+					<unitPlacement unitType="goblin_stabber" territory="Goblin Town" quantity="3" owner="Orcs"/>
 					<unitPlacement unitType="wall" territory="Goblin Town" quantity="3" owner="Orcs"/>
-					<unitPlacement unitType="snaga_skirmisher" territory="North Misty Mountains" quantity="2" owner="Angmar"/>
+					<unitPlacement unitType="goblin_archer" territory="Goblin Town" quantity="5" owner="Orcs"/>
+					<unitPlacement unitType="snaga_skirmisher" territory="North Misty Mountains" quantity="5" owner="Angmar"/>
 					<unitPlacement unitType="warg" territory="North Misty Mountains" quantity="1" owner="Angmar"/>
-					<unitPlacement unitType="orc_marauder" territory="North Misty Mountains" quantity="1" owner="Angmar"/>
+					<unitPlacement unitType="orc_marauder" territory="North Misty Mountains" quantity="3" owner="Angmar"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Sirannon" quantity="1" owner="Orcs"/>
 					<unitPlacement unitType="orc_marauder" territory="Sirannon" quantity="2" owner="Orcs"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Moria" quantity="4" owner="Orcs"/>
-					<unitPlacement unitType="troll" territory="Moria" quantity="2" owner="Orcs"/>
 					<unitPlacement unitType="fortress" territory="Moria" quantity="1" owner="Orcs"/>
-					<unitPlacement unitType="balrog" territory="Moria" quantity="1" owner="Orcs"/>
-					<unitPlacement unitType="bat" territory="Moria" quantity="1" owner="Orcs"/>
+					<unitPlacement unitType="troll" territory="Moria" quantity="2" owner="Orcs"/>
 					<unitPlacement unitType="factory" territory="Moria" quantity="1" owner="Orcs"/>
-					<unitPlacement unitType="orc_marauder" territory="Moria" quantity="6" owner="Orcs"/>
+					<unitPlacement unitType="bat" territory="Moria" quantity="1" owner="Orcs"/>
+					<unitPlacement unitType="balrog" territory="Moria" quantity="1" owner="Orcs"/>
 					<unitPlacement unitType="wall" territory="Moria" quantity="5" owner="Orcs"/>
+					<unitPlacement unitType="orc_marauder" territory="Moria" quantity="6" owner="Orcs"/>
 					<unitPlacement unitType="goblin_stabber" territory="Front Porch" quantity="3" owner="Orcs"/>
 					<unitPlacement unitType="goblin_archer" territory="Front Porch" quantity="1" owner="Orcs"/>
 					<unitPlacement unitType="warg" territory="Hollin Ridge" quantity="2" owner="Orcs"/>
@@ -7116,13 +7094,13 @@
 					<unitPlacement unitType="axeman" territory="North Downs" quantity="1" owner="Arnor"/>
 					<unitPlacement unitType="swordsman" territory="North Downs" quantity="1" owner="Arnor"/>
 					<unitPlacement unitType="archer" territory="West Rhudaur" quantity="1" owner="Arnor"/>
-					<unitPlacement unitType="archer" territory="Annuminas" quantity="4" owner="Arnor"/>
 					<unitPlacement unitType="catapult" territory="Annuminas" quantity="2" owner="Arnor"/>
+					<unitPlacement unitType="archer" territory="Annuminas" quantity="4" owner="Arnor"/>
 					<unitPlacement unitType="spearman" territory="Annuminas" quantity="3" owner="Arnor"/>
 					<unitPlacement unitType="factory" territory="Annuminas" quantity="1" owner="Arnor"/>
 					<unitPlacement unitType="wall" territory="Annuminas" quantity="3" owner="Arnor"/>
-					<unitPlacement unitType="knight" territory="Annuminas" quantity="1" owner="Arnor"/>
 					<unitPlacement unitType="swordsman" territory="Annuminas" quantity="2" owner="Arnor"/>
+					<unitPlacement unitType="knight" territory="Annuminas" quantity="1" owner="Arnor"/>
 					<unitPlacement unitType="peasant" territory="Baranduin East Bank" quantity="2" owner="Arnor"/>
 					<unitPlacement unitType="archer" territory="Amon Sul" quantity="2" owner="Arnor"/>
 					<unitPlacement unitType="tower" territory="Amon Sul" quantity="1" owner="Arnor"/>
@@ -7137,24 +7115,25 @@
 					<unitPlacement unitType="axeman" territory="Fornost" quantity="1" owner="Arnor"/>
 					<unitPlacement unitType="factory" territory="Fornost" quantity="1" owner="Arnor"/>
 					<unitPlacement unitType="wall" territory="Fornost" quantity="3" owner="Arnor"/>
+					<unitPlacement unitType="orc_marauder" territory="East Angmar" quantity="1" owner="Angmar"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="West Mountains of Angmar" quantity="1" owner="Angmar"/>
 					<unitPlacement unitType="orc_marauder" territory="West Angmar" quantity="3" owner="Angmar"/>
 					<unitPlacement unitType="orc_marauder" territory="Hoarwell" quantity="1" owner="Angmar"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Mount Gundabad" quantity="6" owner="Angmar"/>
 					<unitPlacement unitType="factory" territory="Mount Gundabad" quantity="1" owner="Angmar"/>
+					<unitPlacement unitType="wall" territory="Mount Gundabad" quantity="3" owner="Angmar"/>
 					<unitPlacement unitType="orc_marauder" territory="Mount Gundabad" quantity="4" owner="Angmar"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="Carn Dum" quantity="6" owner="Angmar"/>
 					<unitPlacement unitType="fortress" territory="Carn Dum" quantity="1" owner="Angmar"/>
 					<unitPlacement unitType="nazgul" territory="Carn Dum" quantity="1" owner="Angmar"/>
 					<unitPlacement unitType="factory" territory="Carn Dum" quantity="1" owner="Angmar"/>
-					<unitPlacement unitType="orc_marauder" territory="Carn Dum" quantity="4" owner="Angmar"/>
 					<unitPlacement unitType="wall" territory="Carn Dum" quantity="4" owner="Angmar"/>
+					<unitPlacement unitType="orc_marauder" territory="Carn Dum" quantity="4" owner="Angmar"/>
 					<unitPlacement unitType="troll" territory="Trollfells" quantity="2" owner="Angmar"/>
 					<unitPlacement unitType="dragon" territory="Withered Heath" quantity="1" owner="Angmar"/>
-					<unitPlacement unitType="orc_marauder" territory="South Angmar" quantity="2" owner="Angmar"/>
-					<unitPlacement unitType="snaga_skirmisher" territory="South Angmar" quantity="1" owner="Angmar"/>
+					<unitPlacement unitType="snaga_skirmisher" territory="South Angmar" quantity="4" owner="Angmar"/>
 					<unitPlacement unitType="warg" territory="South Angmar" quantity="2" owner="Angmar"/>
-					<unitPlacement unitType="orc_marauder" territory="East Angmar" quantity="1" owner="Angmar"/>
+					<unitPlacement unitType="orc_marauder" territory="South Angmar" quantity="4" owner="Angmar"/>
 					<unitPlacement unitType="troll" territory="Ettenmoors" quantity="1" owner="Angmar"/>
 					<unitPlacement unitType="snaga_skirmisher" territory="East Mountains of Angmar" quantity="1" owner="Angmar"/>
 					<unitPlacement unitType="warg" territory="East Mountains of Angmar" quantity="2" owner="Angmar"/>
@@ -7165,8 +7144,8 @@
 					<unitPlacement unitType="swordsman" territory="South Kingdom of Dale" quantity="2" owner="Dale"/>
 					<unitPlacement unitType="archer" territory="Dale" quantity="2" owner="Dale"/>
 					<unitPlacement unitType="axeman" territory="Dale" quantity="2" owner="Dale"/>
-					<unitPlacement unitType="lancer" territory="Dale" quantity="1" owner="Dale"/>
 					<unitPlacement unitType="factory" territory="Dale" quantity="1" owner="Dale"/>
+					<unitPlacement unitType="lancer" territory="Dale" quantity="1" owner="Dale"/>
 					<unitPlacement unitType="wall" territory="Dale" quantity="4" owner="Dale"/>
 					<unitPlacement unitType="archer" territory="Esgaroth" quantity="3" owner="Dale"/>
 					<unitPlacement unitType="factory" territory="Esgaroth" quantity="1" owner="Dale"/>
@@ -7174,8 +7153,8 @@
 					<unitPlacement unitType="swordsman" territory="Esgaroth" quantity="1" owner="Dale"/>
 					<unitPlacement unitType="axeman" territory="Lands of the Bardings" quantity="2" owner="Dale"/>
 					<unitPlacement unitType="axe_cavalry" territory="Rhun" quantity="2" owner="Rhun"/>
-					<unitPlacement unitType="chariot" territory="Rhun" quantity="2" owner="Rhun"/>
 					<unitPlacement unitType="chariot_archer" territory="Rhun" quantity="3" owner="Rhun"/>
+					<unitPlacement unitType="chariot" territory="Rhun" quantity="2" owner="Rhun"/>
 					<unitPlacement unitType="horsearcher" territory="Lands of Dorwinion" quantity="2" owner="Rhun"/>
 					<unitPlacement unitType="axe_cavalry" territory="Lands of Dorwinion" quantity="1" owner="Rhun"/>
 					<unitPlacement unitType="axeman" territory="Lands of Dorwinion" quantity="2" owner="Rhun"/>
@@ -7185,8 +7164,8 @@
 					<unitPlacement unitType="wall" territory="Dorwinion" quantity="3" owner="Rhun"/>
 					<unitPlacement unitType="war_wagon" territory="East Rhun" quantity="3" owner="Rhun"/>
 					<unitPlacement unitType="horsearcher" territory="East Rhun" quantity="2" owner="Rhun"/>
-					<unitPlacement unitType="chariot" territory="East Rhun" quantity="1" owner="Rhun"/>
 					<unitPlacement unitType="chariot_archer" territory="East Rhun" quantity="2" owner="Rhun"/>
+					<unitPlacement unitType="chariot" territory="East Rhun" quantity="1" owner="Rhun"/>
 					<unitPlacement unitType="horsearcher" territory="South Rhun" quantity="3" owner="Rhun"/>
 					<unitPlacement unitType="axe_cavalry" territory="South Rhun" quantity="2" owner="Rhun"/>
 					<unitPlacement unitType="archer" territory="Lands of the Balcoth" quantity="5" owner="Rhun"/>
@@ -7200,13 +7179,49 @@
 					<unitPlacement unitType="elven_hunter" territory="North Woodland Realm" quantity="1" owner="WoodlandRealm"/>
 					<unitPlacement unitType="elven_archer" territory="North Woodland Realm" quantity="1" owner="WoodlandRealm"/>
 					<unitPlacement unitType="elven_hunter" territory="Mountains of Mirkwood" quantity="2" owner="WoodlandRealm"/>
+					<unitPlacement unitType="elven_warden" territory="Elvenkings Halls" quantity="3" owner="WoodlandRealm"/>
 					<unitPlacement unitType="factory" territory="Elvenkings Halls" quantity="1" owner="WoodlandRealm"/>
 					<unitPlacement unitType="elven_archer" territory="Elvenkings Halls" quantity="5" owner="WoodlandRealm"/>
-					<unitPlacement unitType="elven_warden" territory="Elvenkings Halls" quantity="3" owner="WoodlandRealm"/>
-					<unitPlacement unitType="wizard" territory="Rhosgobel" quantity="1" owner="WoodlandRealm"/>
 					<unitPlacement unitType="factory" territory="Rhosgobel" quantity="1" owner="WoodlandRealm"/>
+					<unitPlacement unitType="wizard" territory="Rhosgobel" quantity="1" owner="WoodlandRealm"/>
 					<unitPlacement unitType="elven_archer" territory="Rhosgobel" quantity="4" owner="WoodlandRealm"/>
 					<unitPlacement unitType="elven_hunter" territory="Elf Path" quantity="2" owner="WoodlandRealm"/>
+					<unitPlacement unitType="axeman" territory="Last Bridge" quantity="2"/>
+					<unitPlacement unitType="factory" territory="Ost in Edhil" quantity="1"/>
+					<unitPlacement unitType="wall" territory="Ost in Edhil" quantity="1"/>
+					<unitPlacement unitType="peasant" territory="Lefnui Vale" quantity="1"/>
+					<unitPlacement unitType="axeman" territory="Barrow Downs" quantity="5"/>
+					<unitPlacement unitType="troll" territory="Trollshaws" quantity="3"/>
+					<unitPlacement unitType="peasant" territory="West Cardolan" quantity="4"/>
+					<unitPlacement unitType="archer" territory="Tharbad" quantity="2"/>
+					<unitPlacement unitType="factory" territory="Tharbad" quantity="1"/>
+					<unitPlacement unitType="wall" territory="Tharbad" quantity="2"/>
+					<unitPlacement unitType="peasant" territory="Tharbad" quantity="1"/>
+					<unitPlacement unitType="archer" territory="East Forochel Coast" quantity="1"/>
+					<unitPlacement unitType="axeman" territory="East Forochel Coast" quantity="1"/>
+					<unitPlacement unitType="axeman" territory="Eryn Vorn" quantity="5"/>
+					<unitPlacement unitType="axeman" territory="South Minhiriath" quantity="1"/>
+					<unitPlacement unitType="light_cavalry" territory="South Minhiriath" quantity="2"/>
+					<unitPlacement unitType="peasant" territory="East Anfalas" quantity="1"/>
+					<unitPlacement unitType="peasant" territory="West Anfalas" quantity="2"/>
+					<unitPlacement unitType="axeman" territory="Druadan Forest" quantity="4"/>
+					<unitPlacement unitType="peasant" territory="North Enedwaith" quantity="1"/>
+					<unitPlacement unitType="peasant" territory="West Brown Lands" quantity="4"/>
+					<unitPlacement unitType="peasant" territory="East Lone Lands" quantity="2"/>
+					<unitPlacement unitType="axe_cavalry" territory="North Minhiriath" quantity="1"/>
+					<unitPlacement unitType="peasant" territory="North Minhiriath" quantity="2"/>
+					<unitPlacement unitType="archer" territory="West Forochel Coast" quantity="2"/>
+					<unitPlacement unitType="axeman" territory="West Forochel Coast" quantity="1"/>
+					<unitPlacement unitType="peasant" territory="South Enedwaith" quantity="2"/>
+					<unitPlacement unitType="peasant" territory="West Lone Lands" quantity="1"/>
+					<unitPlacement unitType="peasant" territory="East Rhovanion" quantity="3"/>
+					<unitPlacement unitType="axeman" territory="Druwaith Laur" quantity="3"/>
+					<unitPlacement unitType="peasant" territory="East Brown Lands" quantity="2"/>
+					<unitPlacement unitType="factory" territory="Lond Daer" quantity="1"/>
+					<unitPlacement unitType="wall" territory="Lond Daer" quantity="1"/>
+					<unitPlacement unitType="peasant" territory="North Brown Lands" quantity="2"/>
+					<unitPlacement unitType="huorn" territory="Old Forest" quantity="4"/>
+					<unitPlacement unitType="peasant" territory="South Cardolan" quantity="3"/>
 					<!--<unitPlacement unitType="factory" territory="Thorins Halls" quantity="1" owner="Dwarves"/>
 					<unitPlacement unitType="factory" territory="Dains Halls" quantity="1" owner="Dwarves"/>
 					<unitPlacement unitType="factory" territory="Erebor" quantity="1" owner="Dwarves"/>
@@ -7938,7 +7953,7 @@
 					<boolean/>
 				</property>
 				
-				<property name="Sea Units" value="false" editable="false">
+				<property name="Sea Units" value="false" editable="true">
 					<boolean/>
 				</property>
 
@@ -7975,7 +7990,7 @@
 			<br/> - You can still collect PUs from territories without controlling your capital, but not from objectives. PUs are not captured when taking a capital.
 			<br/> - Units with 2 or 3 hitpoints regenerate one hitpoint each turn.
 			<br/> - Battles can not last more than 10 turns. This is only a technical rule, for infinite battles where neither side has firepower left can occur.
-			<br/> - On the map, undeeps (South Undeep and North Undeep) are connected to The Wold, and Belfalas is connected to Tolfolas.
+			<br/> - On the map, undeeps (South Undeep and North Undeep) are connected to The Wold, and Belfalas is connected to Tolfolas. Water territories are connected through towns and fords (but not through the Falls of Rauros).
 		</div>
 		<div style="text-align: center;font-size:120%">
 			<br><br><b>Unit abilities</b>
@@ -8020,7 +8035,7 @@
 				<tr bgcolor="72727F">
 					<td>siege</td>
 					<td>sie</td>
-					<td>different from "X (xY) siege</td>
+					<td>different from "X (xY) siege"</td>
 				</tr>
 				<tr bgcolor="A0A0B2">
 					<td>fortification</td>
@@ -8048,8 +8063,8 @@
 					<td>can blitz, +2 when attacking settlement</td>
 				</tr>
 				<tr bgcolor="72727F">
-					<td>militia</td>
-					<td>mil</td>
+					<td>garrison</td>
+					<td>gar</td>
 					<td>+2 when defending settlement</td>
 				</tr>
 				<tr bgcolor="A0A0B2">
@@ -8088,8 +8103,8 @@
 					<td>can give -1 support to X enemy non-fortification non-unseen units</td>
 				</tr>
 				<tr bgcolor="72727F">
-					<td>X net</td>
-					<td>X net</td>
+					<td>X web</td>
+					<td>X web</td>
 					<td>can give -1 attack support to X enemy melee units</td>
 				</tr>
 				<tr bgcolor="A0A0B2">
@@ -8098,8 +8113,8 @@
 					<td>attack only, targets infantry, X/12 chance to hit, Y attacks, first battle round only</td>
 				</tr>
 				<tr bgcolor="72727F">
-					<td>X spear</td>
-					<td>X spear</td>
+					<td>X formation</td>
+					<td>X form</td>
 					<td>defense only, targets charging units, X/12 chance to hit, first battle round only, max. 1 attacks per target</td>
 				</tr>
 				<tr bgcolor="A0A0B2">
@@ -8164,10 +8179,10 @@
 					<td>1</td>
 					<td>2</td>
 					<td>4</td>
-					<td>4 spear</td>
+					<td>4 form</td>
 					<td>1 arm</td>
 					<td>inf,mel</td>
-					<td>mil</td>
+					<td>gar</td>
 				</tr>
 				<tr bgcolor="A0A0B2">
 					<td bgcolor="7C7CB2">axeman</td>
@@ -8239,7 +8254,7 @@
 					<td>-</td>
 					<td>2 arm</td>
 					<td>inf,mel</td>
-					<td>mil</td>
+					<td>gar</td>
 				</tr>
 				
 				<tr bgcolor="A0A0B2">
@@ -8249,7 +8264,7 @@
 					<td>1</td>
 					<td>1</td>
 					<td>1</td>
-					<td>2 spear</td>
+					<td>2 form</td>
 					<td>-</td>
 					<td>inf,mel</td>
 					<td>cd</td>
@@ -8285,7 +8300,7 @@
 					<td>1</td>
 					<td>4</td>
 					<td>3</td>
-					<td>3 spear</td>
+					<td>3 form</td>
 					<td>-</td>
 					<td>inf,mel</td>
 					<td>mw,raid</td>
@@ -8297,7 +8312,7 @@
 					<td>1</td>
 					<td>4</td>
 					<td>6</td>
-					<td>6 spear</td>
+					<td>6 form</td>
 					<td>1 arm</td>
 					<td>inf,mel</td>
 					<td>-</td>
@@ -8321,10 +8336,10 @@
 					<td>1</td>
 					<td>3</td>
 					<td>6</td>
-					<td>6 spear</td>
+					<td>6 form</td>
 					<td>2 arm</td>
 					<td>inf,mel</td>
-					<td>mil</td>
+					<td>gar</td>
 				</tr>
 				
 				<tr bgcolor="72727F">
@@ -8454,7 +8469,7 @@
 					<td>1</td>
 					<td>2</td>
 					<td>6</td>
-					<td>6 spear</td>
+					<td>6 form</td>
 					<td>2 arm</td>
 					<td>inf,mel</td>
 					<td>cd</td>
@@ -8466,7 +8481,7 @@
 					<td>1</td>
 					<td>4</td>
 					<td>5</td>
-					<td>2 spear</td>
+					<td>2 form</td>
 					<td>3 arm</td>
 					<td>inf,mel</td>
 					<td>cd</td>
@@ -8502,10 +8517,10 @@
 					<td>1</td>
 					<td>4</td>
 					<td>6</td>
-					<td>2 spear</td>
+					<td>2 form</td>
 					<td>1 armor</td>
 					<td>inf,mel</td>
-					<td>fd,uns,mil</td>
+					<td>fd,uns,gar</td>
 				</tr>
 				<tr bgcolor="A0A0B2">
 					<td bgcolor="7C7CB2">troll</td>
@@ -8539,7 +8554,7 @@
 					<td>3x2</td>
 					<td>6x2</td>
 					<td>-</td>
-					<td>8 net</td>
+					<td>8 web</td>
 					<td>cre</td>
 					<td>cd,fd</td>
 				</tr>
@@ -8766,7 +8781,7 @@
 		</div>
 		<div style="text-align:left;font-size:100%">
 			<br/> Territory effects are comparatively complex in this game. There are eight of them, but a single territory can have up to three. This, together with the fact that multiple bonuses from territory effects are always cumulative, makes calculations troublesome, you must keep them in mind though. As a proof and also to present how it works, here is an example:
-			<br/> Suppose you want to attack Cerin Amroth which is defended by an elven archer and has forest, hill and settlement territory effects with a knight. Then you look up the table below. Your knight is a cavalry, and has armor support, so it is armored. Three columns have effect on your unit: all, cavalry and armored. For the hill, you only get 1 defense bonus, but no one cares since you are attacking. For the forest you get -3 attack penalty (-2 for cavalry and -1 for being armored). The settlement makes this even worse, adding -2 more penalty. Finally, you end up with -5 penalty, so you only have -1x2 attack left meaning you can't attack at all, opposed to the elven archer, which ends up boosted to 13 defense - sadly, this is cut back to 12, because nothing can pass that limit (+2 for the forest, +2 for the hill, +3 for the settlement and +1 for forest dweller).
+			<br/> Suppose you want to attack Cerin Amroth which is defended by an elven archer and has forest, hill and settlement territory effects with a knight. Then you look up the table below. Your knight is a cavalry, and has armor support, so it is armored. Three columns have effect on your unit: all, cavalry and armored. For the hill, you only get 1 defense bonus, but no one cares since you are attacking. For the forest you get -3 attack penalty (-2 for cavalry and -1 for being armored). The settlement makes this even worse, adding -2 more penalty. Finally, you end up with -5 penalty, so you only have -1x2 attack left meaning you can't attack at all, opposed to the elven archer, which ends up boosted to 13 defense - sadly, this is capped at 12, because nothing can pass that limit (+2 for the forest, +2 for the hill, +3 for the settlement and +1 for forest dweller).
 			<table border="1"bgcolor="757780">
 				<tr>
 					<th style="font-size:120%;000000"bgcolor="3D3D99"colspan="12">Territory Effects</th>
@@ -8888,8 +8903,31 @@
 		<div style="text-align:left;font-size:100%">
 			<br/> - All units Blitz: there is no much to explain, all units (except flying and immobile ones) can Blitz
 			<br/> - Territory effects allow all units: all units can enter mountains, not only mountainwalk; cavalry can enter caves
-			<br/> - Fortification prevents charge and flank: when attacking a territory with any fortification unit present, charge and flank attacks will not work. Defending spear is therefore not expected to work either, it does though. Possibly it will be fixed in the future.
-			<br/> - Free For All: game is free for all; normal objectives do not work; weaker players gets some extra PUs each turn for better balance
+			<br/> - Fortification prevents charge and flank: when attacking a territory with any fortification unit present, charge and flank attacks will not work. Defending formation is therefore not expected to work either, it does though. Possibly it will be fixed in the future.
+			<br/> - Free For All: game is free for all; normal objectives do not work; weaker players get some extra PUs each turn for better balance
+		</div>
+		<div style="text-align: center;font-size:120%">
+			<br><br><b></b>
+		</div>
+		<div style="text-align:left;font-size:100%">
+			<br/>Version 1.1.1 Changelog (work done by Frostion)
+			<br/> - New map design
+			<br/> - Sounds changed to classical
+			<br/> - Other minor changes
+			<br/>
+			<br/>Version 1.1 (for TripleA 1.8.0.7) Changelog
+			<br/>
+			<br/> - Added new units for better balance
+			<br/> - Sea units option is now editable, added territory connections instead of canals
+			<br/> - Isengard is now the Industrial Might of Middle Earth (12 PUs -> 20 PUs)
+			<br/> - Renamed net --> web, spear --> formation and militia --> garrison for more clarity
+			<br/> - Changes in unit graphics
+			<br/> - Added small flags
+			<br/> - Other minor changes
+			<br/>
+			<br/>Please contribute to the map by sharing your experiences or ideas! You can help with playtesting and balance, but you can contribute graphics or whatever you feel is necessary to improve this map.
+			<br/>Creator and maintainer: alkexr (find me on the tripleadev forum)
+			<br/>Map design by Frostion
 		</div>
 	</body>
 </html>
